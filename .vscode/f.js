@@ -28,3 +28,9 @@ console.log(person < 'Shaun');
 let regNo = 45;
 console.log(regNo === 30);
 console.log(regNo === '45');
+
+let score = '100';
+console.log(score + 1);
+
+score = Number(score);
+console.log(score + 1);
