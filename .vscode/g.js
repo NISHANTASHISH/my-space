@@ -53,3 +53,34 @@ const password = 'coolboi';
 if (password.length>5){
     console.log('it is a strong password');
 }
+
+//else if statement
+
+const Password = 'p@ss';
+if(Password.length>=8){
+    console.log('the password is long enough');
+} else {
+    console.log('the password is not long enough');
+}
+
+//else if statement
+
+const password = 'diggilock';
+if(password.length>=10){
+    console.log('the password is mighty strong');
+} else if(password.length>=8){
+    console.log('the password is long enough');
+} else{
+    console.log('the password is not long enough');
+}
+
+//logical operator - OR|| and AND&&
+
+const Password ='P@ssword12525';
+if(Password.length>=12 && Password.includes('@')){
+    console.log('the password is mighty strong');
+}else if(Password.length>8 || Password.includes('@')){
+    console.log('the password is strong enough');
+} else{
+    console.log('the password is weak');
+}
